@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>dalchini - South Menu</title>
+
+<style>
+
+body {
+	background-image: url("img/dark-texture.jpg");
+	margin: 10px 10px 10px 10px;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+.header {
+
+	font-family: ink free;
+	overflow: hidden;
+	background-color: black;
+	margin-top:10px;
+	border-radius:8px;
+	padding: 20px 8%;
+}
+
+.header a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	margin:0 5px 0 5px;
+	text-decoration: none;
+	font-size: 25px; 
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+.header a.logo {
+	font-size: 50px;
+	color: black;
+	background-color: #ddd;
+	font-weight: bold;
+}
+
+.header a.logo:hover {
+	font-size: 55px;
+	color: #f1f1f1;
+	background-color: #333;
+
+}
+
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.header a.active {
+	background-color: orange;
+	color: white;
+}
+
+.header-right {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+
+  .header a {
+  	float: none;
+  	display: block;
+  	text-align: left;
+  }
+  
+  .header-right {
+  	float: none;
+  }
+}
+
+/*
+.header2 {
+	padding: 10px;
+  	text-align: center;
+ 	background: grey;
+  	color: white;
+  	font-size: 22px;
+}*/
+
+.menubox {
+	border: 1px solid transparent;
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	opacity: 0.8;
+}
+
+p.heading1 {
+	border: 3px solid white;
+	background-color: grey;
+	font-size: 40px;
+	text-align: center;
+	border-radius: 25px 0px 25px 0px;
+}
+
+p.heading2 {
+	font-style: Comic Sans MS;                    /*error*/
+	text-decoration: underline;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+
+p.heading3 {
+	font-style: Comic Sans MS;                    /*error*/
+	text-decoration: underline;
+	font-size: 35px;
+	text-align: center;
+	color: yellow;
+}
+
+p.menudetails {
+	margin-left: 190px;
+	font-size: 21px;
+	color: white;
+}
+
+.menunames1 {
+	float: left;
+	border: 1px solid transparent;
+	height: 130px;
+	width: 440px;
+}
+
+.menuimage {
+	margin: 10px;
+	float: left;
+}
+
+img.dish {
+	width: 150px; 
+	height: 110px;
+	border: 1px solid white;
+	border-radius: 25px 0px 25px 0px;
+}
+
+img.dish:hover {
+	border: 4px solid white;
+}
+
+
+.box1 {
+	border: 1px solid white;
+	height: 10400px;                                       
+	width: 1100px;
+	margin-left: 70px;
+	padding: 40px;
+}
+
+.box2 {
+	border: 1px solid white;
+	height: 500px;
+	width: 900px;
+	margin-left: 60px;
+	padding: 40px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.box3 {
+	border: 1px solid white;
+	height: 900px;
+	width: 900px;
+	margin-left: 60px;
+	padding: 40px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+div.fixed {
+	font-size: 20px;
+    	position: fixed;
+    	bottom: 30px;
+    	right: 60px;
+    	width: 100px;
+	height: 55px;
+    	border: 3px solid white;
+	opacity: 0.5;
+	border-radius: 25px 0px 25px 0px;
+	text-align: center;
+}
+
+div.fixed:hover {
+	border: 4px solid white;		
+}
+
+.footer {
+	padding: 10px;
+  	text-align: center;
+ 	background: black;
+	opacity: 0.7;
+  	color: white;
+  	font-size: 20px;
+	width: 100%;
+	height: 100px;
+}
+
+</style>
+</head>
+
+<body>
+
+<img src="img/south/southheader.jpg" alt="HeaderImage" width="100%">
+
+<br>
+<br><hr>
+	<div class="header">
+		<a href="index.html" class="logo">dal<span style="color:orange;">chini</span></a>
+		<div class="header-right">
+			<a href="index.html">Home</a>
+			<a class="active" href="menuPage.html">Menu</a>
+			<a href="aboutUs.html">About</a>
+			<a href="feedback.html">Feedback</a>
+			<a href="login.html">Book Table</a>
+		</div>
+	</div>
+
+
+	<hr><br>
+
+	<div class="box1">
+		<p class="heading1">South Indian Menu</p>
+		<br><p class="heading3">Veg</p>
+		<div class="box3">
+	
+			<p class="heading2">South Indian Appitizer</p>
+
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/idly_sambar.jpg" >
+				</div>
+			<p class="menudetails">Idly Sambar</p>
+			<p class="menudetails">Rs 50/-</p>
+			</div>
+
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/medu_vada.jpg" >
+				</div>
+			<p class="menudetails">Medu Vada</p>
+			<p class="menudetails">Rs 60/-</p>
+			</div>
+
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/dahi_vada.jpg" >
+				</div>
+			<p class="menudetails">Dahi Vada</p>
+			<p class="menudetails">Rs 65/-</p>
+			</div>
+		
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/sambar_vada.jpg" >
+				</div>
+			<p class="menudetails">Sambar Vada</p>
+			<p class="menudetails">Rs 70/-</p>
+			</div>
+
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/chili_pakora.jpg" >
+				</div>
+			<p class="menudetails">Chili Pakora</p>
+			<p class="menudetails">Rs 18/-</p>
+			</div>
+
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/mix_vegetable_pakora.jpg" >
+				</div>
+			<p class="menudetails">Mixed Vegetable Pakora</p>
+			<p class="menudetails">Rs 25/-</p>
+			</div>
+
+			<div class="menunames1">
+				<div class="menuimage">
+				<img class="dish" src="img/south/Rice-Appe.jpg" >
+				</div>
+			<p class="menudetails">Rice Appe</p>
+			<p class="menudetails">Rs 40/-</p>
+			</div>
+	</div>
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">South Indian Soups</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/tomato_soup.jpg" >
+			</div>
+		<p class="menudetails">Tomato Soup</p>
+		<p class="menudetails">Rs 80/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/rasam.jpg" >
+			</div>
+		<p class="menudetails">Rasam</p>
+		<p class="menudetails">Rs 80/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/mulligatwany_soup.jpg" >
+			</div>
+		<p class="menudetails">Mulligatwany Soup</p>
+		<p class="menudetails">Rs 85/-</p>
+		</div>
+
+	</div>
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">Uthappam</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/tomato_peas_uthappam.jpg" >
+			</div>
+		<p class="menudetails">Tomato And Peas Uthappam</p>
+		<p class="menudetails">Rs 70/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/onion_peas_uthappam.jpg" >
+			</div>
+		<p class="menudetails">Onion And Peas Uthappam</p>
+		<p class="menudetails">Rs 50/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/vegetable_uthappam.jpg" >
+			</div>
+		<p class="menudetails">Vegetable Uthappam</p>
+		<p class="menudetails">Rs 75/-</p>
+		</div>
+
+	</div>
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">Dosai</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/sada_dosa.jpg" >
+			</div>
+		<p class="menudetails">Sada Dosa</p>
+		<p class="menudetails">Rs 20/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/masala_dosa.jpg" >
+			</div>
+		<p class="menudetails">Masala Dosa</p>
+		<p class="menudetails">Rs 35/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/spinach_mashroom_dosa.jpg" >
+			</div>
+		<p class="menudetails">Spinach Mashroom Dosa</p>
+		<p class="menudetails">Rs 45/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/mysore_masala_dosa.jpg" >
+			</div>
+		<p class="menudetails">Mysore Masala Dosa</p>
+		<p class="menudetails">Rs 50/-</p>
+		</div>
+
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/coimbatore_dosa.jpg" >
+			</div>
+		<p class="menudetails">Coimbatore Dosa</p>
+		<p class="menudetails">Rs 60/-</p>
+		</div>		
+	</div>
+
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">Pulao</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/vegetable_pulao.jpg" >
+			</div>
+		<p class="menudetails">Vegetable Pulao</p>
+		<p class="menudetails">Rs 90/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/curd_rice.jpg" >
+			</div>
+		<p class="menudetails">Curd Rice</p>
+		<p class="menudetails">Rs 75/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/tamarind_rice.jpg" >
+			</div>
+		<p class="menudetails">Tamarind Rice</p>
+		<p class="menudetails">Rs 80/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/lemon_rice.jpg" >
+			</div>
+		<p class="menudetails">Lemon Rice</p>
+		<p class="menudetails">Rs 60/-</p>
+		</div>
+
+
+	</div>
+
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">South Indian Curries</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/chana_palak.jpg" >
+			</div>
+		<p class="menudetails">Chana Palak</p>
+		<p class="menudetails">Rs 200/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/kadhai_paneer.jpg" >
+			</div>
+		<p class="menudetails">Kadhai Paneer</p>
+		<p class="menudetails">Rs 75/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/vegetable_jalfrazie.jpg" >
+			</div>
+		<p class="menudetails">Vegetable Jalfrazie</p>
+		<p class="menudetails">Rs 200/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Aaloo_rajma.jpg" >
+			</div>
+		<p class="menudetails">Aaloo Rajma</p>
+		<p class="menudetails">Rs 250/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/ulli_theeyal.jpg" >
+			</div>
+		<p class="menudetails">Ulli Theeyal</p>
+		<p class="menudetails">Rs 210/-</p>
+		</div>
+	</div>
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">South Indian Breads</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/puri.jpg" >
+			</div>
+		<p class="menudetails">Puri</p>
+		<p class="menudetails">Rs 30/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/garlic_paratha.jpg" >
+			</div>
+		<p class="menudetails">Garlic Paratha</p>
+		<p class="menudetails">Rs 60/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/onion_paratha.jpg" >
+			</div>
+		<p class="menudetails">Onion Paratha</p>
+		<p class="menudetails">Rs 70/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/bhatura.jpg" >
+			</div>
+		<p class="menudetails">Bhatura</p>
+		<p class="menudetails">Rs 40/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/naan.jpg" >
+			</div>
+		<p class="menudetails">Naan</p>
+		<p class="menudetails">Rs 45/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/roti.jpg" >
+			</div>
+		<p class="menudetails">Roti</p>
+		<p class="menudetails">Rs 30/-</p>
+		</div>
+
+	</div>
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">Accompaniments</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/mango_chutney.jpg" >
+			</div>
+		<p class="menudetails">Mango Chutney</p>
+		<p class="menudetails">Rs 20/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/sambar.jpg" >
+			</div>
+		<p class="menudetails">Sambar</p>
+		<p class="menudetails">Rs 180/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/papadum.jpg" >
+			</div>
+		<p class="menudetails">Papadum</p>
+		<p class="menudetails">Rs 8/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/rice_kheer.jpg" >
+			</div>
+		<p class="menudetails">Rice Kheer</p>
+		<p class="menudetails">Rs 130/-</p>
+		</div>
+
+	</div>
+
+	<br><br><p class="heading3">Non-Veg</p>
+
+	<br><br>
+	<div class="box3">
+		<p class="heading2">Non-veg Curries</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/fish_molee.jpg" >
+			</div>
+		<p class="menudetails">Fish Molee</p>
+		<p class="menudetails">Rs 330/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/ayila_curry.jpg" >
+			</div>
+		<p class="menudetails">Ayila Curry</p>
+		<p class="menudetails">Rs 350/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/kheema_with_coconut_curry.jpg" >
+			</div>
+		<p class="menudetails">Kheema with Coconut Curry</p>
+		<p class="menudetails">Rs 400/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Squid-Curry.jpg" >
+			</div>
+		<p class="menudetails">Squid Curry</p>
+		<p class="menudetails">Rs 450/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Coorg-Pandi-Curry.jpg" >
+			</div>
+		<p class="menudetails">Coorg Pandi Curry</p>
+		<p class="menudetails">Rs 450/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Thattukada-Beef-Curry.jpg" >
+			</div>
+		<p class="menudetails">Thattukada Beef Curry</p>
+		<p class="menudetails">Rs 430/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Coorg's-Iconic-Pandi-Curry.jpg" >
+			</div>
+		<p class="menudetails">Coorg's Iconic Pandi Curry</p>
+		<p class="menudetails">Rs 400/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Delicious-Pomfret-Curry.jpg" >
+			</div>
+		<p class="menudetails">Delicious Pomfret Curry</p>
+		<p class="menudetails">Rs 500/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/chicken_chettinad.jpg" >
+			</div>
+		<p class="menudetails">Chicken Chettinad</p>
+		<p class="menudetails">Rs 520/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Kori-Gassi.jpg" >
+			</div>
+		<p class="menudetails">Kori Gassi</p>
+		<p class="menudetails">Rs 490/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Chepala-Iguru.jpg" >
+			</div>
+		<p class="menudetails">Chepala Iguru</p>
+		<p class="menudetails">Rs 380/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Kongunadu-Chicken.jpg" >
+			</div>
+		<p class="menudetails">Kongunadu Chicken</p>
+		<p class="menudetails">Rs 460/-</p>
+		</div>
+
+	</div>
+
+
+
+	<br><br>
+	<div class="box3">
+		<p class="heading2">Fry Dishes</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/kerala_karimeen_fry.jpg" >
+			</div>
+		<p class="menudetails">Kerala Karimeen Fry</p>
+		<p class="menudetails">Rs 420/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Payyoli-Chicken-Fry.jpg" >
+			</div>
+		<p class="menudetails">Payyoli Chicken Fry</p>
+		<p class="menudetails">Rs 500/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Squid-Fry.jpg" >
+			</div>
+		<p class="menudetails">Squid Fry</p>
+		<p class="menudetails">Rs 620/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Beef-Dry-Fry.jpg" >
+			</div>
+		<p class="menudetails">Beef Dry Fry</p>
+		<p class="menudetails">Rs 650/-</p>
+		</div>
+
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Kane-Rava-Fry.jpg" >
+			</div>
+		<p class="menudetails">Kane Rava Fry</p>
+		<p class="menudetails">Rs 580/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Malabar-chicken-fry.jpg" >
+			</div>
+		<p class="menudetails">Malabar chicken fry</p>
+		<p class="menudetails">Rs 750/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Ayala-Fish-Fry.jpg" >
+			</div>
+		<p class="menudetails">Ayala Fish Fry</p>
+		<p class="menudetails">Rs 500/-</p>
+		</div>
+	</div>
+
+
+
+
+	<br><br>
+	<div class="box2">
+		<p class="heading2">Biryani</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Thalassery-biryani.jpg" >
+			</div>
+		<p class="menudetails">Thalassery biryani</p>
+		<p class="menudetails">Rs 400/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Hyderabadi-Chicken-Biryani.jpg" >
+			</div>
+		<p class="menudetails">Hyderabadi Chicken Biryani</p>
+		<p class="menudetails">Rs 450/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Ambur-Biryani.jpg" >
+			</div>
+		<p class="menudetails">Ambur Biryani</p>
+		<p class="menudetails">Rs 420/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Hyderabad's-Biryanis-and-Haleem.jpg" >
+			</div>
+		<p class="menudetails">Hyderabad's Biryanis and Haleem</p>
+		<p class="menudetails">rRs 500/-</p>
+		</div>
+
+	</div>
+
+
+
+
+	<br><br>
+	<div class="box3">
+		<p class="heading2">Main Course</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/prawns_kuzhambu.jpg" >
+			</div>
+		<p class="menudetails">Prawns Kuzhambu</p>
+		<p class="menudetails">Rs 400/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Kerala-Chicken-Roast.jpg" >
+			</div>
+		<p class="menudetails">Kerala Chicken Roast</p>
+		<p class="menudetails">Rs 600/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Naadan-Crab-Masala.jpg" >
+			</div>
+		<p class="menudetails">Naadan Crab Masala</p>
+		<p class="menudetails">Rs 480/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Chicken-Salna.jpg" >
+			</div>
+		<p class="menudetails">Chicken Salna</p>
+		<p class="menudetails">Rs 445/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Chicken-Nizami.jpg" >
+			</div>
+		<p class="menudetails">Chicken Nizami</p>
+		<p class="menudetails">Rs 500/-</p>
+		</div>
+
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/The-Fiery-Guntur-Style-Kozhi-Vepudu.jpg" >
+			</div>
+		<p class="menudetails">The Fiery Guntur Style Kozhi Vepudu</p>
+		<p class="menudetails">Rs 300/-</p>
+		</div>
+
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Egg-Appam.jpg" >
+			</div>
+		<p class="menudetails">Egg Appam</p>
+		<p class="menudetails">Rs 150/-</p>
+		</div>
+
+
+	</div>
+
+
+
+	<br><br>
+	<div class="box3">
+		<p class="heading2">South Indian Sweets</p>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Payasam.jpg" >
+			</div>
+		<p class="menudetails">Payasam</p>
+		<p class="menudetails">Rs 330/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Mysore-pak.jpg" >
+			</div>
+		<p class="menudetails">Mysore pak</p>
+		<p class="menudetails">Rs 350/-</p>
+		</div>	
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Banana-Pongal.jpg" >
+			</div>
+		<p class="menudetails">Banana Pongal</p>
+		<p class="menudetails">Rs 400/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Ela-Ada.jpg" >
+			</div>
+		<p class="menudetails">Ela Ada</p>
+		<p class="menudetails">Rs 450/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Vernicelli-Kheer.jpg" >
+			</div>
+		<p class="menudetails">Vernicelli Kheer</p>
+		<p class="menudetails">Rs 450/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Boorelu.jpg" >
+			</div>
+		<p class="menudetails">Boorelu</p>
+		<p class="menudetails">Rs 430/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Maa-Ladoo.jpg" >
+			</div>
+		<p class="menudetails">Maa-Ladoo</p>
+		<p class="menudetails">Rs 400/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Unni-Appam.jpg" >
+			</div>
+		<p class="menudetails">Unni Appam</p>
+		<p class="menudetails">Rs 500/-</p>
+		</div>
+
+		<div class="menunames1">
+			<div class="menuimage">
+			<img class="dish" src="img/south/Rava-Kesari-with-Milk.jpg" >
+			</div>
+		<p class="menudetails">Rava Kesari with Milk</p>
+		<p class="menudetails">Rs 520/-</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+<br><br><br>
+<div class="footer">
+	<p>dalchini - The Indian Restaurant</p>
+</div>
+
+<div class="fixed">
+	<a href="login.html">book<br>online</a>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+

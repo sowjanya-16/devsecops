@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>dalchini - Book a Table</title>
+
+<style>
+
+body {
+	background-image: url("img/dark-texture.jpg");
+	margin: 20px 20px 20px 20px;
+	background-attachment: fixed;
+}
+
+.header {
+	font-family: ink free;
+	overflow: hidden;
+	background-color: black;
+	border-bottom:2px solid #f1f1f1;
+	border-radius:8px;
+	padding: 20px 8%;
+}
+
+.header a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	margin:0 5px 0 5px;
+	text-decoration: none;
+	font-size: 25px; 
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+.header a.logo {
+	font-size: 50px;
+	color: black;
+	background-color: #ddd;
+	font-weight: bold;
+}
+
+.header a.logo:hover {
+	font-size: 55px;
+	color: #f1f1f1;
+	background-color: #333;
+
+}
+
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.header a.active {
+	background-color: orange;
+	color: white;
+}
+
+.header-right {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+
+  .header a {
+  	float: none;
+  	display: block;
+  	text-align: left;
+  }
+  
+  .header-right {
+  	float: none;
+  }
+}
+
+.responsive {
+	width: 33.33%;
+	height: auto;
+}
+
+img.float-r {
+	float: right;
+	margin: 20px;
+}
+
+.clear-r {
+	clear: right;
+}
+
+p.one {
+	color: white;
+	font-size: 25px;
+	font-family: century gothic;
+	margin: 20px;
+}
+
+p.two {
+	color: white;
+	opacity: 0.8;
+	font-size: 20px;
+	font-family: Lucida Console;
+	margin-left: 0px;
+}
+
+input.in1 {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 16px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+
+}
+
+textarea {
+	width: 50%;
+	height: 200px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+.footer {
+	padding: 10px;
+  	text-align: center;
+ 	background: black;
+	opacity: 0.7;
+  	color: white;
+  	font-size: 20px;
+	width: 100%;
+	height: 120px;
+}
+
+</style>
+</head>
+
+<body>
+
+<img src="img/book/book-table4.jpg" alt="HeadImage" width="100%">
+
+<br><br>
+
+
+
+	<div class="header">
+		<a href="index.html" class="logo">dal<span style="color:orange;">chini</span></a>
+		<div class="header-right">
+			<a href="index.html">Home</a>
+			<a href="menuPage.html">Menu</a>
+			<a href="aboutUs.html">About</a>
+			<a href="feedback.html">Feedback</a>
+			<a class="active" href="login.html">Logout</a>
+		</div>
+	</div>
+
+
+
+<br><hr><br>
+
+<img class="float-r responsive" src="img/book/book-table3.jpg" alt="Table">
+
+<p class="one">
+	Make a reservation to have a table available at the restaurant.
+	<br><br><br>
+	* Bookings can only be made 4 days beforehand or sooner than the booking date.
+	<br>
+</p>
+
+<div class="clear-r"></div>
+
+<br><hr><br><br>
+
+
+
+<p class="two" style="margin:20px;">Please fill out the necessary details -</p>
+<br>
+
+
+<form style="margin-left:40px;">
+
+	<p class="two">Select a date</p>
+	<input class="in1" type="date" name="date1" required>
+
+	<br><br>
+
+	<p class="two">No. of guests (between 1 and 20):</p>
+  	<input class="in1" type="number" name="quantity" min="1" max="20" placeholder="0" required>
+
+	<br><br>
+
+	<p class="two">Time</p>
+	<input class="in1" type="time" name="time1" required>
+
+	<br><br>
+
+	<p class="two">AC/Non-AC</p>
+	<table>
+	<tr>
+		<td><input type="radio" name="choice1" value="AC"></td>
+		<td><p class="two" style="margin:15px">AC</p></td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="choice1" value="NAC"></td>
+		<td><p class="two" style="margin:15px">Non-AC</p></td>
+	</tr>
+	</table>
+
+	<br><br>
+
+	<p class="two">Select Booth Area</p>
+	<table>
+	<tr>
+		<td><input type="radio" name="choice2" value="Window"></td>
+		<td><p class="two" style="margin:15px">Window</p></td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="choice2" value="Inside"></td>
+		<td><p class="two" style="margin:15px">Inside</p></td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="choice2" value="Outside"></td>
+		<td><p class="two" style="margin:15px">Outside</p></td>
+	</tr>
+	</table>
+
+	<br><br>
+
+	<textarea type="message" name="requests" rows="8" cols="30" placeholder="Any other requests:"></textarea>
+	<br><br><br>
+
+	<input class="in1" type="submit" value="Book"><br><br>
+</form>
+
+
+
+
+<br><br><br>
+<div class="footer">
+	<p>dalchini - The Indian Restaurant</p>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
